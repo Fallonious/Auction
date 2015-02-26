@@ -17,3 +17,23 @@
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+
+setInterval(function (), interval {
+  $("#nothing").val(<%= @item.highest_bid_amount %>);
+);}, 15000);
+
+// 
+// $(document).ready(function () {
+//   var interval = 5000;  //3000 = 3 seconds
+//   function doAjax() {
+//     $.ajax({
+//       type: 'POST',
+//       url: 'personAutoIncrement.php',
+//       data: $(this).serialize(),
+//       dataType: 'json',
+//       success: function (data) {
+//
+//         setTimeout(doAjax, interval);
+//       }
+//     });
+//   }
