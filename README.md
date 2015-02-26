@@ -1,9 +1,8 @@
 # Auction App - Add AJAX
 
 ## Description
-hello
 
-Given an existing application, add AJAX for submitting information without reloading the page.
+A minimalist auction site that is responsive to other people's bids by implementing AJAX.
 
 ## Objectives
 

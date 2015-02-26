@@ -6,8 +6,8 @@ class Item < ActiveRecord::Base
   validates :starting_price, presence: true, numericality: {greater_than: 0}
 
   def highest_bid_amount
-    return 0 if bids.empty?
-    bids.order(amount: :desc).first.amount
+    return 0 if self.bids.empty?
+    self.bids.order(amount: :desc).first.amount
   end
 
   def next_bid_amount
